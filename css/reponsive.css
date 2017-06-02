@@ -74,6 +74,9 @@ span.price{font-size:16px;}.item-hover{padding: 21px 10px 26px 10px;}.btn{font-s
 }
 }
 @media screen and (max-width: 768px){
+    .dropdown-content{display: none;
+    visibility: visible;}
+    .dropdown-content{width:100% !important;}
 	.scroll {
     display: inline-block;
     vertical-align: bottom;
